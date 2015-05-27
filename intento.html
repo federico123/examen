@@ -1,0 +1,116 @@
+<script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript">
+		$(document).ready(function()
+		{
+         	$("#boton").click(function(){
+				$("#contenedor").addClass("ventana").toggle("500",function(){
+					
+				});
+			});
+				
+			$("nav li").click(function(){
+				$(this).children("ul").toggle(300);
+			});
+        });
+	</script>
+
+<html> 
+	
+    <body>
+    <section>
+		<button id="boton">ventana</button>        
+    </section> 
+    
+      
+    <div id ="contenedor">  
+            <div id ="cabecera">Ve a comprar a federico.com</div>  
+            <div id ="menu">X</div>			
+            <div id ="menu2"><img src="html.jpg" width="63" height="58" style="text-align:left;  margin-left: 20px;" /></div> 
+             
+            <div id ="izquierda"><h1 style="margin-left: 30px;">Este es la plantilla</h1><p style="margin-left: 30px;">Para pasar el examen del inge Cesar que se aplico el dia menos pensado. </p></div>  
+            <div id ="derecha" align="center"><img src="html5.jpg" width="180px" height="200px"/></div>  
+            
+            <div id ="pie"><input type="text" style="margin-top: 20px; margin-left: 80px; width: 200px; height: 40px;" placeholder="email"><input type="button" style="margin-left: 20px; width: 120px; height: 40px; background:#FF0004" value="COMPRAR"></div>  
+        </div>
+          
+    </body>  
+</html>  
+
+<style>
+#contenedor{  
+		display:none;
+        border:2px solid #FF0000;
+		width:500px;
+		height:400px;  
+}  
+#cabecera{  
+        background-color:#000000;  
+		color:white;
+		font-size:10px;
+        height:30px;
+		text-align:right;  
+}  
+#menu{  
+        height:10px;  
+        background-color:#FFFFFF;
+		font-size:20px;  
+		text-align:right; 
+}  
+#menu2{  
+        height:5%;  
+        background-color:#FFFFFF;
+		font-size:10px;  
+		text-align:left; 
+} 
+#izquierda{
+		font-family:Cambria; 
+        height:50%;  
+        background-color:#FFFFFF;  
+        float:left;  
+        width:50%;  
+		margin-top:20px;
+}  
+#derecha{  
+        height:50%;  
+        background-color:#FFFFFF;  
+        float:right;  
+        width:50%; 
+		
+}  
+#pie{  
+        height:30%;  
+        background-color:#D3D1C1;  
+        clear:both;  
+}
+
+.ventana
+{
+	background:rgba(0,0,0,0.7);
+	position:absolute;
+	height:102%;
+	left:-2px;
+	top:-2px;
+	width:102%;
+}
+
+section
+{
+		margin-top:20em;
+		margin-left:40em;
+}
+
+
+section button
+{
+	font-style:italic;
+	font-size: 16px;
+	color:rgba(255,255,255,1);
+	background:rgba(0,0,255,1);
+	border-color:rgba(0,0,102,1);
+	border-radius: 5px;
+	box-shadow: rgba(51,255,255,1)5px 5px 20px;
+	padding:1.4em 0.5em;
+
+}
+
+</style>

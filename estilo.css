@@ -1,0 +1,50 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+.article-list_item--featured .promo-panel .widget {
+    border-width: 1px;
+    height: 100%;
+    overflow-y: auto;
+    position: relative;
+}
+.article-list_item--featured .promo-panel .widget {
+    border-width: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+.promo-panel .widget {
+    padding: 25px;
+}
+.promo-panel .widget {
+    float: left;
+    padding: 20px 10px;
+    width: 100%;
+}
+.panel, pre, .syntaxhighlighter, .article_series-box, .article_series-footer, .promo-panel .widget {
+    padding: 1.875em;
+}
+.panel, pre, .syntaxhighlighter, .article_series-box, .article_series-footer, .promo-panel .widget {
+    border-color: #e9e9e9;
+    border-radius: 2px;
+    padding: 1.25em;
+}
+.panel, pre, .syntaxhighlighter, .article_series-box, .article_series-footer, .promo-panel .widget {
+    background: #fff none repeat scroll 0 0;
+    border-color: #eee;
+    border-style: solid;
+    border-width: 1px;
+    margin-bottom: 1.875em;
+    padding: 1.875em;
+}
+div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, p, blockquote, th, td {
+    direction: ltr;
+    margin: 0;
+    padding: 0;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
